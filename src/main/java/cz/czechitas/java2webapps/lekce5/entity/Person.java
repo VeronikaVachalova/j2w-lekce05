@@ -1,9 +1,7 @@
 package cz.czechitas.java2webapps.lekce5.entity;
-
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
-
 /**
  * Entita reprezentující osobu.
  */
@@ -13,7 +11,6 @@ public class Person {
   private LocalDate birthDate;
 
   private Gender gender;
-
   public Person() {
   }
 
@@ -27,7 +24,6 @@ public class Person {
   public String getGivenName() {
     return givenName;
   }
-
   public void setGivenName(String givenName) {
     this.givenName = givenName;
   }
@@ -39,7 +35,6 @@ public class Person {
   public void setLastName(String lastName) {
     this.lastName = lastName;
   }
-
   public LocalDate getBirthDate() {
     return birthDate;
   }
@@ -52,7 +47,6 @@ public class Person {
   public Gender getGender() {
     return gender;
   }
-
   public void setGender(Gender gender) {
     this.gender = gender;
   }
